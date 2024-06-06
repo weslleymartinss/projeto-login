@@ -13,6 +13,10 @@
     margin: 0px;
     box-sizing: border-box;
     
+    
+}
+label {
+    font-size: small;
 }
 body, html {
     background-color:#5f2c82;
@@ -43,7 +47,7 @@ section#login > div#imagem {
     height: 200px;
     background: #5f2c82 url(../imagens/metal.jpg) center;
     background-size: cover;
-    border-bottom: 1px solid black;
+    
     
 }
 section#login > div#formulario {
@@ -52,3 +56,10 @@ section#login > div#formulario {
     
 }
 
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
+}
